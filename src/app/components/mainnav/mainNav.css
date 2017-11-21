@@ -1,0 +1,6 @@
+/*.mainMenu{background-color: red;}*/
+
+.mainMenu .navbar-default{background-color: rgba(40, 91, 120, 0.3); width: 100%; border:solid white 2px;}
+.mainMenu .navbar-nav li a {color: white; padding-left: 4px; }
+.mainMenu span{color: white;}
+
