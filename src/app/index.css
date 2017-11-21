@@ -15,10 +15,11 @@
 body{
  
   width: 100%;
+  font-family: 'Lato', sans-serif; margin: 0px; padding: 0px;
 }
 
 .home{
-  background-color: rgba(40, 91, 120, 0.3);/* background-color: white;*/
+/*  background-color: rgba(40, 91, 120, 0.3);/* background-color: white;*/*/
   width: 100%;
   border: white 2px solid;
   height: 400px;
@@ -29,6 +30,40 @@ body{
 .story{
   width: 100%;
   height: auto;
+  float: left;
+  display: flex;
+
+
+ 
+/*  background-color: black;*/
+}
+
+.welcome{
+  background-color: #90AFC5;
   color: white;
-  background-color: black;
+
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+ 
+  font-size: 4em;
+
+}
+
+.banner{
+ 
+  padding:0px;
+  margin-right: 0px;
+}
+.banner img{
+  width: 700px;
+  height:400px;
+}
+.message{
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 17px;
+}
+.contact img{
+  height:200px;
 }
